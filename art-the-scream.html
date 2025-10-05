@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ArtWorld — The Scream</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="index.html">🎨 ArtWorld</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+          <div class="d-flex gap-2">
+            <a class="btn btn-outline-light btn-sm" href="login.html">Login</a>
+            <a class="btn btn-primary btn-sm" href="signup.html">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<main class="container my-5">
+  <div class="row g-4 align-items-center">
+    <div class="col-lg-6">
+      <img src="assets/images/the-scream.jpg" alt="The Scream" class="img-fluid rounded-4 shadow-sm reveal">
+    </div>
+    <div class="col-lg-6">
+      <h1 class="display-6 mb-2">The Scream</h1>
+      <p class="text-muted mb-1"><strong>Artist:</strong> Edvard Munch</p>
+      <p class="text-muted mb-3"><strong>Year:</strong> 1893</p>
+      <p class="lead">An icon of modern anxiety, depicting a figure under a blood-red sky in a moment of existential dread.</p>
+      <a href="gallery.html" class="btn btn-outline-primary mt-2">Back to Gallery</a>
+    </div>
+  </div>
+
+  <hr class="my-5">
+
+  <section>
+    <h2 class="h4 mb-3">Similar Artworks</h2>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+
+  <div class="col">
+    <div class="card h-100 border-0 shadow-sm hover-rise reveal">
+      <img src="assets/images/starry-night.jpg" class="card-img-top" alt="The Starry Night">
+      <div class="card-body">
+        <h5 class="card-title">The Starry Night</h5>
+        <p class="card-text text-muted">Vincent van Gogh · 1889</p>
+        <a href="art-starry-night.html" class="btn btn-outline-primary btn-sm">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 border-0 shadow-sm hover-rise reveal">
+      <img src=assets/images/guernica.jpg" class="card-img-top" alt="Guernica">
+      <div class="card-body">
+        <h5 class="card-title">Guernica</h5>
+        <p class="card-text text-muted">Pablo Picasso · 1937</p>
+        <a href="art-guernica.html" class="btn btn-outline-primary btn-sm">View Details</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 border-0 shadow-sm hover-rise reveal">
+      <img src="assets/images/girl-with-pearl.jpg" class="card-img-top" alt="Girl with a Pearl Earring">
+      <div class="card-body">
+        <h5 class="card-title">Girl with a Pearl Earring</h5>
+        <p class="card-text text-muted">Johannes Vermeer · c. 1665</p>
+        <a href="art-girl-with-pearl.html" class="btn btn-outline-primary btn-sm">View Details</a>
+      </div>
+    </div>
+  </div>
+
+    </div>
+  </section>
+</main>
+
+    <footer class="bg-dark text-white mt-5 py-4">
+      <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <p class="mb-0 small">&copy; 2025 ArtWorld. All rights reserved.</p>
+        <p class="mb-0 small">A demo project built with <span class="text-info">Bootstrap 5</span>.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
